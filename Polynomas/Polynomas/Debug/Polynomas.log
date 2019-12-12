@@ -1,0 +1,11 @@
+﻿  Polynom.cpp
+f:\nngutasks\mp2-lab5-polynomas\polynomas\polynomas\monom.h(79): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+f:\nngutasks\mp2-lab5-polynomas\polynomas\polynomas\monom.h(122): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+f:\nngutasks\mp2-lab5-polynomas\polynomas\polynomas\polynom.cpp(39): warning C4018: <: несоответствие типов со знаком и без знака
+f:\nngutasks\mp2-lab5-polynomas\polynomas\polynomas\polynom.cpp(49): warning C4018: <: несоответствие типов со знаком и без знака
+f:\nngutasks\mp2-lab5-polynomas\polynomas\polynomas\polynom.cpp(54): warning C4018: <: несоответствие типов со знаком и без знака
+  sample.cpp
+f:\nngutasks\mp2-lab5-polynomas\polynomas\polynomas\monom.h(79): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+f:\nngutasks\mp2-lab5-polynomas\polynomas\polynomas\monom.h(122): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+  Создание кода...
+  Polynomas.vcxproj -> F:\NnguTasks\mp2-lab5-polynomas\Polynomas\Debug\Polynomas.exe

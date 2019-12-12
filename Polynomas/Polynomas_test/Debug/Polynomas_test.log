@@ -1,0 +1,5 @@
+﻿  test_list.cpp
+  test_main.cpp
+f:\nngutasks\mp2-lab5-polynomas\polynomas\polynomas_test\test_main.cpp(1): fatal error C1083: Не удается открыть файл включение: gtest.h: No such file or directory,
+  test_polynom.cpp
+  Создание кода...
