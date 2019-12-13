@@ -1,0 +1,3 @@
+F:/NnguTasks/mp2-lab5-polynomas/Polynomas/Cluster_test/CMakeFiles/Cluster_test.dir
+F:/NnguTasks/mp2-lab5-polynomas/Polynomas/Cluster_test/CMakeFiles/ALL_BUILD.dir
+F:/NnguTasks/mp2-lab5-polynomas/Polynomas/Cluster_test/CMakeFiles/ZERO_CHECK.dir

@@ -24,13 +24,18 @@ class Monom {
 		auto getCoef = [&firstVariable, this](){
 			if (firstVariable)
 			{
-				firstVariable = false;
-				int i = 0;
-				while (input[i++] < 119)
-				{
+				if(input[0] < 119){
+					firstVariable = false;
+					int i = 0;
+					while (input[i++] < 119)
+					{
 
+					}
+					coef = stoi(input.substr(0,i));
 				}
-				coef = stoi(input.substr(0,i));
+				else {
+					coef = 1;
+				}
 			}
 		};
 
@@ -167,14 +172,15 @@ public:
 	}
 
 	Monom& operator-=(Monom& mon) {
-		coef += mon.coef;
+		coef -= mon.coef;
 		return *this;
 	}
 
 	Monom& operator+=(Monom& mon) {
-		coef -= mon.coef;
+		coef += mon.coef;
 		return *this;
 	}
+	
 	Monom& operator*=(Monom& mon) {
 		int *degs1 = getDegreeArray();
 		int *degs2 = mon.getDegreeArray();

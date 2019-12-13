@@ -93,7 +93,8 @@ string Polynom::toString()
 	while (currNodeInput->next != headInput) {
 		if (currNodeInput->data.coef > 0)
 			res += "+";
-		res = res + to_string(currNodeInput->data.coef);
+		if (currNodeInput->data.coef != 1 && currNodeInput->data.coef != -1)
+			res = res + to_string(currNodeInput->data.coef);
 		int*  degs = currNodeInput->data.getDegreeArray();
 		for (int i = 0; i < 3; i++)
 		{
@@ -121,7 +122,8 @@ string Polynom::toString()
 	if (currNodeInput != headInput) {
 		if (currNodeInput->data.coef > 0)
 			res += "+";
-		res = res + to_string(currNodeInput->data.coef);
+		if(currNodeInput->data.coef != 1 && currNodeInput->data.coef != -1)
+			res = res + to_string(currNodeInput->data.coef);
 		int*  degs = currNodeInput->data.getDegreeArray();
 		for (int i = 0; i < 3; i++)
 		{

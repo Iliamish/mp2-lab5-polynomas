@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\NnguTasks\mp2-lab5-polynomas\Polynomas\Cluster_test\CMakeFiles\59c664dd34b85b641173c00ea6d5b8b9\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{71F0AFEE-1510-3C49-B117-1C59934DC515}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

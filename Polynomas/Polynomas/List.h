@@ -21,13 +21,15 @@ public:
 
 	~TList()
 	{
-		TNode<T>* end = pFirst;
-		while (pFirst->next != end) {
-			TNode<T> *tmp = pFirst;
-			pFirst = tmp->next;
-			delete tmp;
+		if (pFirst) {
+			TNode<T>* end = pFirst;
+			while (pFirst->next != end) {
+				TNode<T> *tmp = pFirst;
+				pFirst = tmp->next;
+				delete tmp;
+			}
+			delete pFirst;
 		}
-		delete pFirst;
 	}
 
 	void clear() {
@@ -52,8 +54,8 @@ public:
 		if (pFirst == nullptr) {
 			TNode<T> *obj = new TNode<T>;
 			obj->data = object;
-			obj->next = pFirst;
 			pFirst = obj;
+			obj->next = pFirst;
 			return;
 		}
 		TNode<T> *tmp = pFirst;
@@ -75,12 +77,8 @@ public:
 		prevElement->next = obj;
 	}
 
-	TNode<T>* front(){
-		return pFirst;
-	}
-
-	void sort(){
-	
+	TNode<T>& front(){
+		return *pFirst;
 	}
 
 	int size() {

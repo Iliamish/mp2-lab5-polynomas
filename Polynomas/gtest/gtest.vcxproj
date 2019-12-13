@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{EFB8FAA5-9FDA-37E3-B81D-9309DE25978B}</ProjectGuid>
+    <ProjectGuid>{180901A5-F3B6-3395-A047-572282472D5E}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
@@ -56,26 +56,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gtest.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gtest</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gtest.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gtest</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gtest.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gtest</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gtest.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gtest</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab4-cluster\Cluster\Cluster;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab5-polynomas\Polynomas\Polynomas;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -93,10 +93,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab4-cluster\Cluster\Cluster;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab5-polynomas\Polynomas\Polynomas;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab4-cluster\Cluster\Cluster;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab5-polynomas\Polynomas\Polynomas;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -109,7 +109,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab4-cluster\Cluster\Cluster;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab5-polynomas\Polynomas\Polynomas;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -127,10 +127,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab4-cluster\Cluster\Cluster;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab5-polynomas\Polynomas\Polynomas;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab4-cluster\Cluster\Cluster;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab5-polynomas\Polynomas\Polynomas;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -143,7 +143,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab4-cluster\Cluster\Cluster;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab5-polynomas\Polynomas\Polynomas;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -161,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab4-cluster\Cluster\Cluster;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab5-polynomas\Polynomas\Polynomas;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab4-cluster\Cluster\Cluster;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab5-polynomas\Polynomas\Polynomas;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +177,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab4-cluster\Cluster\Cluster;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab5-polynomas\Polynomas\Polynomas;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -194,10 +194,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab4-cluster\Cluster\Cluster;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab5-polynomas\Polynomas\Polynomas;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab4-cluster\Cluster\Cluster;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\NnguTasks\mp2-lab5-polynomas\Polynomas\Polynomas;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -209,10 +209,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/NnguTasks/mp2-lab4-cluster/Cluster/gtest/CMakeLists.txt</Message>
+    <CustomBuild Include="F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/NnguTasks/mp2-lab5-polynomas/Polynomas/gtest/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SF:/NnguTasks/mp2-lab4-cluster/Cluster -BF:/NnguTasks/mp2-lab4-cluster/Cluster --check-stamp-file F:/NnguTasks/mp2-lab4-cluster/Cluster/gtest/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/NnguTasks/mp2-lab5-polynomas/Polynomas -BF:/NnguTasks/mp2-lab5-polynomas/Polynomas --check-stamp-file F:/NnguTasks/mp2-lab5-polynomas/Polynomas/gtest/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -220,12 +220,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/NnguTasks/mp2-lab4-cluster/Cluster/gtest/CMakeLists.txt;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\CMakeLists.txt;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/NnguTasks/mp2-lab5-polynomas/Polynomas/gtest/CMakeLists.txt;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\CMakeLists.txt;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/NnguTasks/mp2-lab4-cluster/Cluster/gtest/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/NnguTasks/mp2-lab5-polynomas/Polynomas/gtest/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SF:/NnguTasks/mp2-lab4-cluster/Cluster -BF:/NnguTasks/mp2-lab4-cluster/Cluster --check-stamp-file F:/NnguTasks/mp2-lab4-cluster/Cluster/gtest/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/NnguTasks/mp2-lab5-polynomas/Polynomas -BF:/NnguTasks/mp2-lab5-polynomas/Polynomas --check-stamp-file F:/NnguTasks/mp2-lab5-polynomas/Polynomas/gtest/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -233,12 +233,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/NnguTasks/mp2-lab4-cluster/Cluster/gtest/CMakeLists.txt;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\CMakeLists.txt;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/NnguTasks/mp2-lab5-polynomas/Polynomas/gtest/CMakeLists.txt;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\CMakeLists.txt;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/NnguTasks/mp2-lab4-cluster/Cluster/gtest/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/NnguTasks/mp2-lab5-polynomas/Polynomas/gtest/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SF:/NnguTasks/mp2-lab4-cluster/Cluster -BF:/NnguTasks/mp2-lab4-cluster/Cluster --check-stamp-file F:/NnguTasks/mp2-lab4-cluster/Cluster/gtest/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/NnguTasks/mp2-lab5-polynomas/Polynomas -BF:/NnguTasks/mp2-lab5-polynomas/Polynomas --check-stamp-file F:/NnguTasks/mp2-lab5-polynomas/Polynomas/gtest/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -246,12 +246,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/NnguTasks/mp2-lab4-cluster/Cluster/gtest/CMakeLists.txt;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\CMakeLists.txt;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/NnguTasks/mp2-lab5-polynomas/Polynomas/gtest/CMakeLists.txt;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\CMakeLists.txt;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/NnguTasks/mp2-lab4-cluster/Cluster/gtest/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/NnguTasks/mp2-lab5-polynomas/Polynomas/gtest/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SF:/NnguTasks/mp2-lab4-cluster/Cluster -BF:/NnguTasks/mp2-lab4-cluster/Cluster --check-stamp-file F:/NnguTasks/mp2-lab4-cluster/Cluster/gtest/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/NnguTasks/mp2-lab5-polynomas/Polynomas -BF:/NnguTasks/mp2-lab5-polynomas/Polynomas --check-stamp-file F:/NnguTasks/mp2-lab5-polynomas/Polynomas/gtest/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -259,17 +259,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/NnguTasks/mp2-lab4-cluster/Cluster/gtest/CMakeLists.txt;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\CMakeLists.txt;F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/NnguTasks/mp2-lab5-polynomas/Polynomas/gtest/CMakeLists.txt;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\CMakeLists.txt;F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="F:\NnguTasks\mp2-lab4-cluster\Cluster\gtest\gtest-all.cc" />
+    <ClCompile Include="F:\NnguTasks\mp2-lab5-polynomas\Polynomas\gtest\gtest-all.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="F:\NnguTasks\mp2-lab4-cluster\Cluster\ZERO_CHECK.vcxproj">
-      <Project>{F054C565-5447-3435-AEEA-8A14F4F0AB21}</Project>
+    <ProjectReference Include="F:\NnguTasks\mp2-lab5-polynomas\Polynomas\ZERO_CHECK.vcxproj">
+      <Project>{CEB18BC4-DBB3-3165-87E9-05F7E08C9E0C}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
