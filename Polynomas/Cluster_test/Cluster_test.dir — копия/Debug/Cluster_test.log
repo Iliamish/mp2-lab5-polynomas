@@ -1,0 +1,5 @@
+﻿  Client.cpp
+f:\nngutasks\mp2-lab4-cluster\cluster\cluster\Cluster.h(11): warning C4091: typedef : пропускается слева от "Processor", когда ни одна переменная не объявлена
+f:\nngutasks\mp2-lab4-cluster\cluster\cluster\Cluster.h(16): warning C4091: typedef : пропускается слева от "taskInWork", когда ни одна переменная не объявлена
+F:\NnguTasks\mp2-lab4-cluster\Cluster\Cluster\Client.cpp(11): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Cluster_test.vcxproj -> F:\NnguTasks\mp2-lab4-cluster\Cluster\Cluster_test\Debug\Cluster_test.exe

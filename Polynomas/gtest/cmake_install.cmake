@@ -1,4 +1,4 @@
-# Install script for directory: F:/NnguTasks/mp2-lab4-cluster/Cluster/gtest
+# Install script for directory: F:/NnguTasks/mp2-lab5-polynomas/Polynomas/gtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

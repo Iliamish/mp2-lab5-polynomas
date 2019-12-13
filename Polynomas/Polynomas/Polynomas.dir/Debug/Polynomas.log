@@ -1,0 +1,4 @@
+﻿  sample.cpp
+f:\nngutasks\mp2-lab5-polynomas\polynomas\polynomas\Monom.h(84): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+f:\nngutasks\mp2-lab5-polynomas\polynomas\polynomas\Monom.h(127): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+  Polynomas.vcxproj -> F:\NnguTasks\mp2-lab5-polynomas\Polynomas\Polynomas\Debug\Polynomas.exe
